@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Me</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+<!--added style so as not to override existing css, like alignment of name in other documents-->
+	<style>
+	.bodymain{
+		width: 960px;
+		height: 580px;
+	}
+	.mytextbox{
+		height: 250px;
+		width: 700px;
+		padding-bottom: 30px;
+	}
+	.formpad{
+		padding-left: 30px;
+	}
+	.page{
+		padding-right: 480px;
+	}
+	/*I did 480px, b/c that's half of 960*/
+	.submitbutton{
+		background: rgb(74,170,165);
+		height: 40px;
+		width: 80px;
+		color: white;
+		border-radius: 5%;
+	}
+
+	.turqoisename{
+		margin-left: 18%;
+	}
+
+	</style>
+
+
+</head>
+<body>
+<nav class="topnavbar">
+<h2 class="turqoisename"> Pawel Lyko </h2>
+
+<div class="hlpages">
+<a href="index.html"> About </a>
+<a href="Portfolio.html">| Portfolio |</a>
+<a href="contact.html"> Contact </a>
+</div>
+</nav>
+
+<!--end navbar, start body -->
+
+<div class="page">
+	<div class="bodymain">
+	<h2 class="aboutme"> Contact Me </h2>
+	<hr>
+		<form class="formpad">
+			<p class="lowop"> Name </p>
+			<input type="name" placeholder="John Doe">
+			<p> Email</p>
+			<input type="email" placeholder="example@gmail.com">
+			<p> Message</p>
+			<input type="textbox" class="mytextbox">
+			<br>
+			<button class="submitbutton"> Submit</button>
+		</form>
+	</div>
+</div>
+
+
+<footer class="stopa"> 
+ <p class="paluch">copyright &copy;</p>
+</footer>
+</body>
+</html>
